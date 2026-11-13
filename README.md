@@ -23,7 +23,7 @@ A small message board built with PHP and PostgreSQL. Visitors post messages, the
 - Open the site in two browsers: same messages, separate visit counters.
 - Close the browser and reopen it: the counter starts again from 1.
 
-## Short answers
+## Answers
 
 **1. What is the difference between a cookie and a session?**
 A cookie is a small piece of data the website asks the browser to store, and the browser sends it back with every request to that site. It can last for days or months (like the remembered name). A session is data the server keeps for one visitor for a limited time, such as a visit counter. The browser only holds a session ID cookie (`PHPSESSID`) so the server can find the right data. The session ID cookie normally expires when the browser closes.
